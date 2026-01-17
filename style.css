@@ -43,5 +43,42 @@ p,h1,h3,h2,h4,h5,h6{
     min-width:250px;
     max-width: 350px;
     background-color: #FF0000;
+    border-radius: 20px;
     
+}
+.section6{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    min-width:250px;
+    max-width: 350px;
+    background-color: #FF0000;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    margin: 20px;
+    background-color: #3700ff;
+    border-radius: 99%;
+    height: 7vh;
+    MAX-width: 20vw;
+    display: inline-block;
+    text-align: center;
+    padding: 3vh;
+}
+.sinsint{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px;
+}
+
+.ttt img{
+    width: 30vw;
+    border-radius: 20px;
 }
